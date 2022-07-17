@@ -288,7 +288,7 @@ function App() {
         
           <Button onClick={getPrediction}variant="outlined" size="large" style={{marginTop:"20px",marginBottom:"20px",marginLeft:'auto',marginRight:'auto',display:'block',color:'white'}}>Predict Price</Button>
           {Predict 
-          ? Price ? <h1 style={{textAlign:'center',marginTop:'20px',marginBottom:'100px'}}>Predicted Price is : {Price.toFixed(2)} </h1> : <h1>Predicting Price...</h1>
+          ? Price ? <h1 style={{textAlign:'center',marginTop:'20px',marginBottom:'100px'}}>Predicted Price is : {Price.toFixed(2)} </h1> : <h1 style={{textAlign:'center',marginTop:'20px',marginBottom:'100px'}}>Predicting Price...</h1>
           : 
           <div style={{margin:'100px'}}></div>
           }
