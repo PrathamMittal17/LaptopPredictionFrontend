@@ -75,7 +75,7 @@ function App() {
   return (
     <div className="App">
       <Container>
-        <h1>Laptop Predictor</h1>
+        <h1>Laptop Price Predictor</h1>
         <div style={{textAlign:'left'}}>
 
           <h2>Brand</h2>
